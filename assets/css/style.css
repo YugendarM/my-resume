@@ -239,15 +239,64 @@ html, body {
 
 .intern__desc {
     font-size: 14px;
-
-
 }
+
+/* Education Section  */
+
+.education__container {
+    display: flex;
+    gap: 50px;
+    margin: 36px 0px;
+}
+
+.education__year {
+    font-size: 30px;
+    font-weight: 500;
+    transform: rotate(-90deg);
+    opacity: 0.8;
+}
+
+
+.education__partition {
+    /* padding: 2px; */
+    margin-left: -80px;
+    height: inherit;
+    width: 2px;
+    background-color: #272829;
+    opacity: 0.8;
+}
+
+.education__details__container {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.education__desc {
+    font-size: 21px;
+    font-weight: 700;
+}
+
+.education__institution {
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 400;
+}
+
+.education__score {
+    font-size: 14px;
+    opacity: 0.7;
+}
+
+
+
+
 /* Aside Part  */
 
 .aside__container {
     background-color: #272829;
     width: 532px;
-    height: 500%;
+    height: 100%;
 }
 
 
