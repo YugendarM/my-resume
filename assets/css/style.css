@@ -365,3 +365,31 @@ html, body {
     transition: ease-in;
 }
 
+
+/* Skills  Section  */
+
+.skills__section__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 36px 0px;
+}
+
+.skills__container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 50px 0px;
+}
+
+.skill {
+    width: 150px;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 500;
+    list-style: none;
+    background-color: #FCDC15;
+    color: #272829;
+    padding: 5px 5px;
+}
