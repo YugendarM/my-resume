@@ -203,6 +203,45 @@ html, body {
     font-weight: 600;
     text-decoration: none;
 }
+
+
+/* Internship Section  */
+
+.internship__container {
+    display: flex;
+    gap: 50px;
+    margin:  36px 0px;
+}
+
+.internship__date {
+    font-size: 20px;
+    color: #272829;
+    opacity: 0.7;
+    font-weight: 500;
+}
+
+.internship__detail__container {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.intern__role {
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.intern__company {
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 500;
+}
+
+.intern__desc {
+    font-size: 14px;
+
+
+}
 /* Aside Part  */
 
 .aside__container {
