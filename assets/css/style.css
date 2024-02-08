@@ -299,4 +299,69 @@ html, body {
     height: 100%;
 }
 
+.aside__part__heading__container {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.aside__heading {
+    font-size: 20px;
+    color: #FCDC15;
+    letter-spacing: 8px;
+    border-top: 3px solid #B8B9BD;
+    border-bottom: 3px solid #B8B9BD;
+    padding: 8px 0px ;
+}
+
+.aside__header__deco__element__rgt {
+    height: 50px;
+}
+
+.aside__header__deco__element__left {
+    height: 50px;
+    transform: rotate(180deg);
+}
+
+/* Contact Section  */
+
+.contact__section__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 36px 0px;
+}
+
+.contacts__container {
+    /* width: 100%; */
+    padding: 50px 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 38px;
+}
+
+.contact__detail {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.contact__icon {
+    color: #FCDC15;
+    font-size: 34px;
+}
+
+.contact__link {
+    width: 300px;
+    font-size: 22px;
+    font-weight: 300;
+    text-decoration: none;
+    color: white;
+}
+
+.contact__link:hover {
+    font-weight: 500;
+    transition-duration: 0.5s;
+    transition: ease-in;
+}
 
