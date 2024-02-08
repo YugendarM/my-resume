@@ -113,7 +113,10 @@ html, body {
 /* ############################ */
 
 .content__part__container {
-    background-color: red;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    /* background-color: red; */
     margin-top: 50px;
 }
 
@@ -145,6 +148,61 @@ html, body {
     line-height: 36px;
 }
 
+/* Project Section  */
+
+.project__container {
+    display: flex;
+    gap: 50px;
+    margin: 36px 0px;
+}
+
+.bullet {
+    display: flex;
+
+}
+
+.bullet__square{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 800;
+    height: 40px;
+    width: 40px;
+    background-color: #272829;
+}
+
+.bullet__triangle {
+    width: 0; 
+    height: 0; 
+    border-top:20px solid transparent;
+    border-bottom: 20px solid transparent;
+    border-left: 20px solid #272829;
+}
+
+.project__detail__container {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.project__title {
+    font-size: 21px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.project__description{
+    font-size: 18px;
+    color: #272829;
+}
+
+.project__link {
+    font-size: 16px;
+    color: #272829;
+    font-weight: 600;
+    text-decoration: none;
+}
 /* Aside Part  */
 
 .aside__container {
