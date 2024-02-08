@@ -4,32 +4,40 @@
     font-family: "Roboto", sans-serif;
 }
 
+html, body { 
+    margin: 0; 
+    padding: 0; 
+    width: 100%; 
+    height: 100%;
+}
+
 /* Header */
 
 .header__container {
     display: flex;
+    height: 450px;
     /* justify-content: space-between;
     align-items: center; */
 }
 
 .header__left__container {
     position: relative;
-    width: 85%;
+    width: 65%;
 }
 
 .header__decorator {
-    height: 600px;
+    height: 100%;
     width: 400px;
     background-color: #272829;
 }
 
 .header__flex__container {
     background-color: #FCDC15;
-    height: 250px;
-    width: 800px;
+    height: 180px;
+    width: 700px;
     position: absolute;
-    left: 200px;
-    top: 150px;
+    left: 120px;
+    top: 100px;
     padding: 50px;
     display: flex;
     justify-content: center;
@@ -55,8 +63,8 @@
     width: 100px;
     background-color: #272829;
     position: absolute;
-    bottom: 110px;
-    right: 300px;
+    bottom: 75px;
+    right: 200px;
     opacity: 0.7;
     content: "";
 }
@@ -64,24 +72,85 @@
 .header__right {
     background-color: #272829;
     height: inherit;
-    width: 50%;
+    width: 35%;
 }
 
 
 .profile__img__container {
-    width: 450px;
-    padding: 28px;
+    display: flex;
+    align-items: center;
+    height: 230px;
+    width: 350px;
+    padding: 20px;
     padding-left: 40px;
     border: 5px solid #FCDC15;
     border-left: none;
     position: absolute;
-    top: 150px;
+    top: 100px;
 }
 
 .profile__img {
-    height: 280px;
-    width: 280px;
+    height: 230px;
+    width: 230px;
     object-fit: cover;
     border-radius: 50%;
 }
+/* ########################### */
+.below__part__container {
+    height: 1000px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+.yellow__decorator {
+    height: 100%;
+    width: 50px;
+    background-color: #FCDC15;
+}
+
+/* ############################ */
+
+.content__part__container {
+    background-color: red;
+    margin-top: 50px;
+}
+
+/* Profile Section */
+
+.profile__section__container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.profile__container {
+    width: 800px;
+    
+}
+
+.sub__heading {
+    font-size: 28px;
+    letter-spacing: 3px;
+    padding: 5px 0px;
+    border-bottom: 2px solid #272829;
+}
+
+.profile__content {
+    text-align: justify;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 36px;
+}
+
+/* Aside Part  */
+
+.aside__container {
+    background-color: #272829;
+    width: 532px;
+    height: 500%;
+}
+
 
