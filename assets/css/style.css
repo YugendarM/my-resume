@@ -97,7 +97,7 @@ html, body {
 }
 /* ########################### */
 .below__part__container {
-    height: 1000px;
+    height: 1600px;
     display: flex;
     justify-content: space-between;
 
@@ -142,6 +142,7 @@ html, body {
 }
 
 .profile__content {
+    margin-top: 20px;
     text-align: justify;
     font-size: 18px;
     font-weight: 500;
@@ -392,4 +393,59 @@ html, body {
     background-color: #FCDC15;
     color: #272829;
     padding: 5px 5px;
+}
+
+/* Progamming Language Section  */
+
+.prog__lang__section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 36px 0px;
+}
+
+.prog__lang__container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 50px 0px;
+}
+
+.lang {
+    list-style: circle;
+    color: #FCDC15;
+    font-size: 24px;
+    font-weight: 450;
+}
+
+/* Hobbies Section  */
+
+.hobbies__section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 36px 0px;
+}
+
+.hobbies__container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 50px 0px;
+}
+
+.hobby {
+    list-style: none;
+    color: #FCDC15;
+    font-size: 26px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    width: 250px;
+}
+
+.hobby__img {
+    height: 40px;
 }
