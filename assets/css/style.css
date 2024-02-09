@@ -4,20 +4,11 @@
     font-family: "Roboto", sans-serif;
 }
 
-html, body { 
-    margin: 0; 
-    padding: 0; 
-    width: 100%; 
-    height: 100%;
-}
-
 /* Header */
 
 .header__container {
     display: flex;
     height: 450px;
-    /* justify-content: space-between;
-    align-items: center; */
 }
 
 .header__left__container {
@@ -27,18 +18,22 @@ html, body {
 
 .header__decorator {
     height: 100%;
-    width: 400px;
+    width: 40%;
     background-color: #272829;
 }
 
 .header__flex__container {
     background-color: #FCDC15;
-    height: 180px;
-    width: 700px;
+    height: 40%;
+    width: 70%;
     position: absolute;
-    left: 120px;
-    top: 100px;
-    padding: 50px;
+    left: 15%;
+    top: 25%;
+    padding: 4%;
+   
+}
+
+.header__details__container {
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -47,31 +42,36 @@ html, body {
 
 .header__name {
     color: #272829;
-    font-size: 80px;
+    font-size: 4vw;
     font-weight: 500;
     letter-spacing: 5px;
 }
 
-.header__role {
-    font-size: 32px;
-    font-weight: 400;
-    letter-spacing: 3px;
+.header__role__container {
+    display: flex;
+    align-items: center;
+    gap: 3vw;
 }
 
-.header__role::after {
+.header__role {
+    font-size: 1.8vw;
+    font-weight: 400;
+    letter-spacing: 3px;
+    display: flex;
+    align-items: center;
+}
+
+.header__role__decorator {
     height: 3px;
-    width: 100px;
+    width: 15%;
     background-color: #272829;
-    position: absolute;
-    bottom: 75px;
-    right: 200px;
-    opacity: 0.7;
-    content: "";
+    opacity: 0.7;    
 }
 
 .header__right {
+    position: relative;
     background-color: #272829;
-    height: inherit;
+    height: 100%;
     width: 35%;
 }
 
@@ -79,14 +79,18 @@ html, body {
 .profile__img__container {
     display: flex;
     align-items: center;
-    height: 230px;
-    width: 350px;
-    padding: 20px;
-    padding-left: 40px;
+    height: 40%;
+    width: 60%;
+    padding: 6%;
+    padding-left: 8%;
     border: 5px solid #FCDC15;
     border-left: none;
     position: absolute;
-    top: 100px;
+    top: 25%;
+}
+
+.profile__sm__img {
+    display: none;
 }
 
 .profile__img {
@@ -448,4 +452,111 @@ html, body {
 
 .hobby__img {
     height: 40px;
+}
+
+
+/* ########################################################################################### */
+
+
+@media(max-width: 1007px){  /* when screen size is below 768px (tablet) */
+    .header__container {
+        height: 350px;
+    }
+    
+    .header__left__container {
+        width: 70%;
+    }
+
+    .header__right {
+        width: 30%;
+    }
+
+    .header__flex__container {
+        height: 100px;
+        left: 50px;
+        padding: 40px;
+    }
+
+    .header__name {
+        font-size: 40px;
+    }
+    
+    .header__role {
+        font-size: 20px;
+        letter-spacing: 1px;
+    }
+
+    .profile__img__container {
+        height: 130px;
+        width: 60%;
+        padding: 20px;
+        padding-left: 10px;
+        border: 5px solid #FCDC15;
+        border-left: none;
+        position: absolute;
+        top: 90px;
+    }
+
+    .profile__img {
+        height: 150px;
+        width: 150px;
+    }
+}
+
+/* ################################################################################### */
+
+@media(max-width: 640px){
+
+    .header__container {
+        height: 240px;
+    }
+
+    .header__right {
+        display: none;
+    }
+
+    .header__left__container {
+        width: 100%;
+    }
+
+    .header__flex__container{
+        
+        left: 10%;
+        height: 25%;
+        /* top: 100px;  */
+        padding: 40px;
+        display: flex;
+        
+    } 
+
+    .header__name {
+        font-size: 24px;
+        letter-spacing: 1px;
+    }
+
+    .header__role {
+        font-size: 14px;
+    }
+
+    .header__role__decorator {
+        display: none;
+    }
+
+    .header__details__container{
+        gap: 20px;
+    }
+
+    .header__flex__container {
+        display: flex;
+        align-items: center ;
+        justify-content: space-between;
+    }
+
+    .profile__sm__img {
+        display: inline-block;
+        height: 100px;
+        width: 100px;
+        object-fit: cover;
+        border-radius: 50%;
+    }
 }
