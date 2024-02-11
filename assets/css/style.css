@@ -396,10 +396,10 @@
 }
 
 .skill {
-    width: 150px;
+    width: 10vw;
     text-align: center;
     border-radius: 5px;
-    font-size: 20px;
+    font-size: 1.3vw;
     font-weight: 500;
     list-style: none;
     background-color: #FCDC15;
@@ -426,7 +426,7 @@
 .lang {
     list-style: circle;
     color: #FCDC15;
-    font-size: 24px;
+    font-size: 1.6vw;
     font-weight: 450;
 }
 
@@ -449,17 +449,17 @@
 .hobby {
     list-style: none;
     color: #FCDC15;
-    font-size: 26px;
+    font-size: 1.6vw;
     font-weight: 500;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 30px;
-    width: 250px;
+    gap: 5vw;
+    width: 15vw;
 }
 
 .hobby__img {
-    height: 40px;
+    height: 3vw;
 }
 
 
