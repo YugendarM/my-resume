@@ -537,7 +537,6 @@
         
         left: 10%;
         height: 25%;
-        /* top: 100px;  */
         padding: 40px;
         display: flex;
         
@@ -572,5 +571,19 @@
         width: 100px;
         object-fit: cover;
         border-radius: 50%;
+    }
+
+    .below__part__container {
+        display: inline-block;
+    }
+
+
+
+    /* Aside Part  */
+
+
+    .aside__container {
+        padding-top: 50px;
+        width: 100%;
     }
 }
